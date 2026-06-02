@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #000000, #0A1931);
+}
+.titulo-marca{
+    color: white;
+    text-align: center;
+    font-size:25px;
+}
+.titulo{
+    color:#FF4500 ;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial black;
+    font-size: 34px;
+}
+.subtitulo{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.intro{
+    color: white;
+    max-width: 850px;
+    font-family: arial;
+    font-size: 20px;
+}
+.targetas{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.subtitulo-2{
+    color: #FF4500;
+    font-family: arial black;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+.sub-video{
+     color: #FF4500;
+    font-family: arial black;
+    font-size: 29px;
+    text-transform: uppercase;
+    max-width: 800px;
+}
+.elegirnos{
+    display: flex;
+    justify-content: center;
+}
+.boton-volver{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF4500;
+    padding: 12PX 20PX;
+    margin-top: 10px;
+}

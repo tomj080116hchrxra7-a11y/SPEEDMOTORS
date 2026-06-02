@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #000000, #ff44009d);
+}
+
+.titulo1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+
+}
+
+.titulo{
+    color: #FF4500;
+    text-transform: uppercase;
+    font-family:Arial Black;
+    font-size: 50px;
+}
+
+.subtitulo{
+    color: white;
+    max-width: 500px;
+    font-family:sans-serif;
+    font-size: 27px;
+
+}
+.tuning{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.tabla-vehiculos {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background-color: #1a1a1a; /* Fondo oscuro principal */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 20px 0;
+}
+
+.tabla-vehiculos th {
+    background-color: #333; /* Fondo de encabezados */
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    border-bottom: 2px solid #444;
+}
+
+.tabla-vehiculos td {
+    padding: 15px;
+    border-bottom: 1px solid #444; /* Línea divisoria sutil */
+    text-align: center;
+}
+
+/* Color naranja para los valores numéricos */
+.valor {
+    color: #d35400; 
+    font-weight: bold;
+}
+
+/* Alineación a la izquierda para el texto de modificaciones */
+.detalle {
+    text-align: left;
+}
+
+/* Efecto al pasar el cursor sobre las filas */
+.tabla-vehiculos tbody tr:hover {
+    background-color: #252525;
+}
+.titulonuestrametodologia{
+   color: #FF4500;
+    text-transform: uppercase;
+    font-family:Arial Black;
+    font-size: 20px; 
+}
+.metodologias{
+    display: flex;
+    color: wheat;
+    max-width: 900px;
+    font-size: 20px;
+    gap: 80px;
+}
+.titulo-video{
+    color: #FF4500;
+    text-align: center;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.subtitulo-video{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+.boton-volver{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF4500;
+    padding: 12PX 20PX;
+    margin-top: 10px;
+}

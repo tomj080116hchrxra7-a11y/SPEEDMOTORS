@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #000000, #0A1931);
+}
+.titulo{
+
+   color: #FF4500;
+   font-family: arial black;
+   text-transform: uppercase;
+   text-align: center;
+}
+.potencia{
+    color: coral;
+    
+}
+.introduccion{
+    color: #E0E0E0;
+    max-width: 800px; /* acomodar texto */
+}
+
+.servicios{
+display: flex; /* acomodar horizontalmente a los elementos dentro de <div>*/
+gap: 40px; /* espacio entre las cajas dentro de <div> */
+justify-content: center; /* centrar las imagenes*/
+text-align: center; /* centrar el texto */
+ color:#cccccc;
+ text-transform:uppercase; /*  poner todo en mayusculas */
+ font-size: 20px; /* tamaño de letra */
+}
+
+.boton-resultados{
+    display: flex;
+   justify-content: center;
+   gap: 120px; /* espacio entre lo de alado */
+   margin-top: 20px; /* espacio entre lo de arriba y lo de abajo */
+}
+.boton-resultados a {
+    color: white;
+font-family: impact,sans-serif;
+text-decoration: none; /* quitar la linea del boton que trae por defecto para que se vea mas limpio */
+text-transform: uppercase;
+font-size: 18px;
+background-color: #FF4500;/* fondo del boton */
+padding: 12px 15px; /* tamaño del boton*/
+
+}
+.contenedor-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Espacio entre los videos */
+    flex-wrap: wrap; /* Para que se acomoden en celulares */
+    padding: 20px;
+}
+
+.video-item {
+    /* Esto controla el tamaño máximo de cada video */
+    width: 100%;
+    max-width: 500px; 
+}
+
+.video-item video {
+    width: 100%;
+    height: 280px; /* Ajusta este valor para controlar la altura */
+    object-fit: cover; /* Asegura que el video no se deforme */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    background-color: #000;
+}
+
+.pie-pagina {
+    background-color: #000; /* Fondo negro */
+    color: white;
+    text-align: center;
+    padding: 28px 9px; /* tamaño de pie de pagina */
+    font-family: sans-serif;
+}
+
+.linea-naranja {
+    border-top: 2px solid #FF4500; /* Línea delgada naranja */
+    width: 80%; /* para que no llege a las orillas para que se vea más fino */
+    margin: 0 auto 20px auto; /* para que la linea naranja quede centrada */
+}
+
+.marca {
+    font-weight: bold; /* este es para controlar el grosor de la letra */
+    letter-spacing: 2px; /* para la separacion de letras en speed motors */
+    margin-bottom: 15px; /* empuja a lo que esta de bajo para que no se vea pegado */
+}
+
+.marca span {
+    color: #FF4500; /* El ADN naranja */
+}
+
+.datos-contacto span {
+    display: inline-block; /* Se ponen uno al lado del otro */
+    margin: 0 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #555;
+}
